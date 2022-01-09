@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th> <label for="Amount">Amount</label></th>
+            <th>From Curryency</th>
+            <th>To Curryency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="Amount"></td>
+            <td>
+                <select id="From">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select id="To">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>                    
+            </td>
+            <td><button onclick = "changeMoney()">Convert</button></td>    
+        </tr>
+    </table>
+
+    <br>
+    <p id="result"></p>
+<script src="tien_te.js"></script>
+</body>
+</html>
